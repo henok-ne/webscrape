@@ -33,3 +33,9 @@ def scrape_quotes(page: int):
         })
 
     return {"page": page, "data": data}
+
+def scrape_site(site: str, page: int):
+    if site == "quotes":
+        return scrape_quotes(page)
+    else:
+        return {"error": "Unsupported site"}
