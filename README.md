@@ -6,21 +6,37 @@ It demonstrates how to automate data collection from web pages, process HTML con
 
 Features
 Automated web data extraction
+
 HTML parsing and structured data collection
+
 Data cleaning and formatting
+
 Export results to CSV format
+
 Handles basic website structures efficiently
+
 Technologies Used
+
 Python
+
 Requests
+
 BeautifulSoup
+
 CSV module
+
 How It Works
+
 The script sends a request to the target website
+
 The HTML content is parsed using BeautifulSoup
+
 Relevant data fields are extracted
+
 Data is cleaned and structured
+
 Final output is saved into a CSV file
+
 How to Run
 1. Install dependencies
 2. Run the script
@@ -39,14 +55,24 @@ What This Project Demonstrates
 This project shows my ability to:
 
 Build automation tools using Python
+
 Extract and process real-world web data
+
 Structure unorganized information into usable datasets
+
 Apply web scraping for business and research needs
+
 Future Improvements
+
 Add support for dynamic websites
+
 Improve scraping speed and efficiency
+
 Add database integration (SQLite / PostgreSQL)
+
 Build API wrapper for reusable scraping service
+
 Author
+
 Henok Mesfin
 Python Developer | Web Scraping | Data Automation
